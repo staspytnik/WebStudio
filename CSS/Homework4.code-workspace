@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Homework4",
+			"path": ".."
+		},
+		{
+			"name": "Cascading_Style",
+			"path": "../../Cascading_Style"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Cascading_Style"
+	}
+}
