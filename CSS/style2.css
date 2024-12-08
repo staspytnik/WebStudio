@@ -3,3 +3,33 @@ footer {
     height: 252px;
     background-color: rgba(47, 48, 58, 1);
 }
+
+address {
+    color: white;
+}
+
+a[href^="mailto:"] {
+    color: white;
+}
+
+a[href^="tel:"] {
+    color: white;
+}
+
+a[href="#"] {
+    color: white;
+}
+
+font {
+color: rgba(33, 150, 243, 1);
+}
+
+a[href="./index.html"] {
+    color: black;
+}
+a[href="./portfolio.html"] {
+    color: black;
+}
+a[href=""] {
+    color: black;
+}

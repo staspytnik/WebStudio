@@ -4,8 +4,56 @@ div {
     background-color: rgba(47, 48, 58, 1);
 }
 
+section {
+    width: 1600px;
+    height: 648px;
+    background-color: rgba(245, 244, 250, 1);
+}
+
 footer {
     width: 1600px;
     height: 252px;
     background-color: rgba(47, 48, 58, 1);
+}
+
+h1 {
+    color: white;
+}
+
+button {
+    color:rgba(33, 150, 243, 1);
+}
+
+address {
+    color: white;
+}
+
+a[href^="mailto:"] {
+    color: white;
+}
+
+a[href^="tel:"] {
+    color: white;
+}
+
+a[href="#"] {
+    color: white;
+}
+
+font {
+color: rgba(33, 150, 243, 1);
+}
+
+a[href="./index.html"] {
+    color: black;
+}
+a[href="./portfolio.html"] {
+    color: black;
+}
+a[href=""] {
+    color: black;
+}
+
+p {
+    color: rgba(117, 117, 117, 1);
 }
