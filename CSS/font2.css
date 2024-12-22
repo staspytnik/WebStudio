@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+.main-header {
+    font-family: "Roboto", serif;
+    font-weight: 500;/*? Medium */
+    font-style: normal;
+}
+
+.main-button {
+    font-family: "Roboto", serif;
+    font-weight: 700; /*? Bald */
+    font-style: normal;
+}
+
+.main-p  {
+    font-family: "Roboto", serif;
+    font-weight: 400;/*? Regular */
+    font-style: normal;
+}
+
+
