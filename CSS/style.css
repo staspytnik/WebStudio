@@ -1,4 +1,12 @@
-div {
+.container {
+    padding: 0 15px;
+    width: 1170px;
+    margin: auto;
+
+}
+
+
+.div {
     width: 1600px;
     height: 600px;
     background-color: rgba(47, 48, 58, 1);
@@ -57,3 +65,4 @@ a[href=""] {
 p {
     color: rgba(117, 117, 117, 1);
 }
+
