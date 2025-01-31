@@ -7,8 +7,7 @@
 
 
 .div {
-    width: 1600px;
-    height: 600px;
+    padding: 200px 0;
     background-color: rgba(47, 48, 58, 1);
 }
 
@@ -66,3 +65,9 @@ p {
     color: rgba(117, 117, 117, 1);
 }
 
+.hero-button {
+    margin: 0 auto;
+    display: block;
+    margin: 30px auto;
+    padding: 10px;
+}

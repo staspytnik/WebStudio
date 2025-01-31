@@ -28,8 +28,9 @@ body {
     text-align: center;
     color: #fff;
     border-radius: 4px;
-width: 216px;
-height: 50px;
+    width: 216px;
+    height: 50px;
+    cursor: pointer;
 }
 
 .main-p  {

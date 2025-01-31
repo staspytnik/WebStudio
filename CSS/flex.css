@@ -1,0 +1,29 @@
+.header-ul {
+    display: flex;
+    gap: 50px;
+}
+
+.section-ul {
+    display: flex;
+    gap: 30px;
+}
+
+.container-ul {
+    display: flex;
+    gap: 30px;
+}
+
+.main-ul {
+    display: flex;
+    gap: 30px;
+}
+
+.div-ul {
+    display: flex;
+    align-items: center;
+    flex-direction: colum;
+    align-items: center;
+    justify-content: center;
+    
+}
+
