@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
+.container {
+    padding: 0 15px;
+    width: 1170px;
+    margin: auto;
+
+}
+
+.container1 {
+    padding: 0 15px;
+    width: 1170px;
+    margin: auto;
+
+}
+
 body {
     font-family: "Roboto", sans-serif;
 }
@@ -22,6 +36,7 @@ body {
     font-family: "Roboto", serif;
     font-weight: 400;/*? Regular */
     font-style: normal;
+    text-decoration: none;
 }
 
 .header {
@@ -38,6 +53,7 @@ body {
 }
 
 .footer-aa {
+    
     text-decoration: none;
 }
 
@@ -45,16 +61,113 @@ body {
     text-decoration: none;
 }
 
+.nav-ul {
+    display: flex;
+    gap: 30px;
+    flex-wrap: nowrap;
+}
 
+ul {
+    list-style: none;
+}
 
+.button-ul {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
 
+}
 
+.header-ul {
+    display: flex;
+    gap: 50px;
+}
 
+.main-button1 {
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    width: 73px;
+    height: 38px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+background: #2196f3;
+    border-color: #F5F4FA;
+    
+    border-style: solid;
+    
+    margin: 0 auto;
+    display: block;
+    margin: 30px auto;
+    padding: 10px;
+    
+    cursor: pointer;
+}
 
+.main-button2 {
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    width: 125px;
+    height: 38px;
+    border-color: #F5F4FA;
+    border-style: solid;
+    
+    margin: 0 auto;
+    display: block;
+    margin: 30px auto;
+    padding: 10px;
+    
+    cursor: pointer;
+}
 
+.main-button3 {
+    background-color: #F5F4FA;
+    width: 112px;
+    height: 38px;
+    border-radius: 4px;
+    border-color: #F5F4FA;
+    border-style: solid;
+    
+    margin: 0 auto;
+    display: block;
+    margin: 30px auto;
+    padding: 10px;
+    
+    cursor: pointer;
+}
 
+.main-button4 {
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    width: 103px;
+    height: 38px;
+    border-color: #F5F4FA;
+    border-style: solid;
+    
+    margin: 0 auto;
+    display: block;
+    margin: 30px auto;
+    padding: 10px;
+    
+    cursor: pointer;
+}
 
+.main-button5 {
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    width: 130px;
+    height: 38px;
+    border-color: #F5F4FA;
+    border-style: solid;
+    
+    margin: 0 auto;
+    display: block;
+    margin: 30px auto;
+    padding: 10px;
+    cursor: pointer;
+}
 
+a {
+    text-decoration: none;
+}
 
 
 

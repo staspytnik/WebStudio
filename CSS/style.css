@@ -71,3 +71,7 @@ p {
     margin: 30px auto;
     padding: 10px;
 }
+
+a {
+    text-decoration: none;
+}

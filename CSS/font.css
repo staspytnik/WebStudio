@@ -15,6 +15,12 @@ body {
     font-family: "Roboto", serif;
     font-weight: 900;/*? Black */
     font-style: normal;
+    line-height: 60px;
+}
+
+.div-ul {
+    display: flex;
+    flex-direction: column;   
 }
 
 .hero-button {
@@ -31,6 +37,7 @@ body {
     width: 216px;
     height: 50px;
     cursor: pointer;
+
 }
 
 .main-p  {

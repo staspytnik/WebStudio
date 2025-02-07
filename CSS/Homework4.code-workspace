@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Bakery"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Homework4"
+	}
+}
