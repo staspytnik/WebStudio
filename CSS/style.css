@@ -5,21 +5,27 @@
 
 }
 
+ul {
+    padding: 0;
+}
 
-.div {
+.footer-ul {   
+    padding: 0 15px;
+    width: 1170px;
+    margin: auto;
+
+}
+
+.intro {
     padding: 200px 0;
     background-color: rgba(47, 48, 58, 1);
+    gap: 215px 94px;
 }
 
-section {
-    width: 1600px;
-    height: 648px;
-    background-color: rgba(245, 244, 250, 1);
-}
 
-footer {
-    width: 1600px;
-    height: 252px;
+
+.benefit {
+    padding: 84px 0;
     background-color: rgba(47, 48, 58, 1);
 }
 
@@ -74,4 +80,8 @@ p {
 
 a {
     text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
 }

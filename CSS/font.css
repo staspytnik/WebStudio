@@ -100,7 +100,10 @@ body {
     list-style-type: none;
 }
 
-
+.container-ul {
+    display: flex;
+    
+}
 
 
 
