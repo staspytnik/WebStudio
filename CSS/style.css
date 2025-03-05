@@ -17,12 +17,28 @@ ul {
 }
 
 .intro {
+    background-image: url(../img/Img\ \(10\).jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.div-title {
+    text-transform: uppercase;
+}
+
+.biznes {
+    display: block;
+    text-align: center;
+}
+
+/*.intro {
     padding: 200px 0;
     background-color: rgba(47, 48, 58, 1);
     gap: 215px 94px;
 }
-
-
+*/
 
 .benefit {
     padding: 84px 0;
@@ -64,6 +80,14 @@ a[href="./portfolio.html"] {
     color: black;
 }
 a[href=""] {
+    color: black;
+}
+
+a[href^="mailto 1:"] {
+    color: black;
+}
+
+a[href^="tel 1:"] {
     color: black;
 }
 

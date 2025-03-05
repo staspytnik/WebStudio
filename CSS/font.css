@@ -37,6 +37,7 @@ body {
     width: 216px;
     height: 50px;
     cursor: pointer;
+    border: none;
 
 }
 
@@ -56,6 +57,7 @@ body {
     font-family: "Roboto", serif;
     font-weight: 700; /*? Bald */
     font-style: normal;
+    text-align: center;
 }
 
 .footer-a {
@@ -86,15 +88,20 @@ body {
 
 .header-ul {
     list-style-type: none;
+    padding: 34px 0;
 }
 
 .main-ul {
     list-style-type: none;
+    padding: 94px 0;
 }
 
 .section-ul {
     list-style-type: none;
+    padding-bottom: 94px;
+
 }
+
 
 .footer-ul {
     list-style-type: none;
@@ -102,19 +109,44 @@ body {
 
 .container-ul {
     display: flex;
-    
+    padding: 0 0 94px;
+}
+
+.main-button {
+    display: flex;
+    justify-content: center;
+}
+
+.header-ul2 {
+    display: flex;
+    margin-left: 344px;
+    gap: 50px;
+}
+
+.section-li {
+    background-color: #F5F4FA;
+    background: #F5F4FA;
+    text-align: center;
+    border-radius: 0 0 4px 4px;
+width: 270px;
+height: 368px;
+box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+background: #fff;
+border: none;
 }
 
 
+/*display: flex;
+background-color: #F7F5F0;
+text-align: center;
+background: #F7F5F0;
+padding-bottom: 30px;
+border-radius: 20px;
+gap: 30px;
+list-style-type: none;
+box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
 
-
-
-
-
-
-
-
-
+*/
 
 
 

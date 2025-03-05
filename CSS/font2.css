@@ -81,6 +81,8 @@ ul {
 .header-ul {
     display: flex;
     gap: 50px;
+    padding: 34px 0;
+    
 }
 
 .main-button1 {
@@ -169,7 +171,26 @@ a {
     text-decoration: none;
 }
 
+.header-ul2 {
+    display: flex;
+    margin-left: 344px;
+    gap: 50px;
+}
+
+.main-li1 {
+    background-color: #F5F4FA;
+    background: #F5F4FA;
+    border: 1px solid #eee;
+    width: 370px;
+    height: 404px;
+    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+background: #fff;
+    margin-bottom: 30px;
+    margin: 30px;
+}
 
 
-
-
+.benefit {
+    padding: 84px 0;
+    background-color: rgba(47, 48, 58, 1);
+}
