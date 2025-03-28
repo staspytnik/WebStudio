@@ -1,14 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+  }
+
 
 body {
     font-family: "Roboto", sans-serif;
 }
 
 .header-a {
-    font-family: "Roboto", serif;
-    font-weight: 500;/*? Medium */
-    font-style: normal;
-    list-style-type: none;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #212121;
 }
 
 .div-title {
@@ -24,15 +31,14 @@ body {
 }
 
 .hero-button {
-    font-family: "Roboto", serif;
-    font-weight: 700; /*? Bald */
-    font-style: normal;
-    background-color: #2196F3;
+    font-family: var(--font-family);
+    font-weight: 700;
     font-size: 16px;
     line-height: 187%;
     letter-spacing: 0.06em;
     text-align: center;
     color: #fff;
+    background-color: #2196F3;
     border-radius: 4px;
     width: 216px;
     height: 50px;
@@ -41,10 +47,22 @@ body {
 
 }
 
+.header-li1 {
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 26px;
+letter-spacing: 0.03em;
+color: #2196f3;
+}
+
+
 .main-p  {
-    font-family: "Roboto", serif;
-    font-weight: 400;/*? Regular */
-    font-style: normal;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
 .div-b {
@@ -54,23 +72,29 @@ body {
 }
 
 .section-title {
-    font-family: "Roboto", serif;
-    font-weight: 700; /*? Bald */
-    font-style: normal;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
     text-align: center;
+    color: #212121;
 }
 
 .footer-a {
-    font-family: "Roboto", serif;
-    font-weight: 700; /*? Bald */
-    font-style: normal;
-    text-decoration: none;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: #2196f3;
 }
 
-.footer-address {
-    font-family: "Roboto", serif;
-    font-weight: 400;/*? Regular */
-    font-style: normal;
+.footer-addrs {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: #fff;
 }
 
 .footer-p {
@@ -80,10 +104,12 @@ body {
 }
 
 .footer-aa {
-    font-family: "Roboto", serif;
-    font-weight: 400;/*? Regular */
-    font-style: normal;
-    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .header-ul {
@@ -105,6 +131,8 @@ body {
 
 .footer-ul {
     list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
 }
 
 .container-ul {
@@ -115,11 +143,17 @@ body {
 .main-button {
     display: flex;
     justify-content: center;
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
 }
 
 .header-ul2 {
     display: flex;
-    margin-left: 344px;
+    margin-left: 300px;
     gap: 50px;
 }
 
@@ -149,11 +183,43 @@ box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
 */
 
 
+.main-b {
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
 
+.b {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121; 
+}
 
+.p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #757575; 
+}
 
-
-
+.div-title {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 136%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff; 
+}
 
 
 

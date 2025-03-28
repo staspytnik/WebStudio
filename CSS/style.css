@@ -57,14 +57,6 @@ address {
     color: white;
 }
 
-a[href^="mailto:"] {
-    color: white;
-}
-
-a[href^="tel:"] {
-    color: white;
-}
-
 a[href="#"] {
     color: white;
 }
@@ -110,10 +102,28 @@ ul {
     list-style-type: none;
 }
 
-.header-li1 {
-    font-family: var(--second-family);
-    font-weight: 700;
-    font-size: 26px;
-    letter-spacing: 0.03em;
-    color: #2196f3;
+
+
+.img-main {
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.section-img {
+    width: 270px;
+    height: 260px; 
+}
+
+.header-ul {
+    align-items: center;
+}
+
+.header-ul2 {
+    align-items: center;
+}
+
+.header-a:hover {
+    color: #2196F3;
 }

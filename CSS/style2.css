@@ -55,14 +55,7 @@ a[href^="tel 1:"] {
     padding: 0;
 }
 
-.header-li1 {
-    font-family: var(--second-family);
-    font-weight: 700;
-    font-size: 26px;
-    letter-spacing: 0.03em;
-    color: #2196f3;
-    margin: 0 93px 0 0;
-}
+
 
 .header-nav {
     display: flex;

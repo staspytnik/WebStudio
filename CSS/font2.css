@@ -1,10 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+  }
 
 .container {
     padding: 0 15px;
     width: 1170px;
     margin: auto;
 
+}
+
+.header-li1 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+    margin: 0 93px 0 0;
 }
 
 .container1 {
@@ -19,11 +33,15 @@ body {
 }
 
 .header-a {
-    font-family: "Roboto", serif;
-    font-weight: 500;/*? Medium */
-    font-style: normal;
-    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
 
+.header-a:hover {
+    color: #2196f3;
 }
 
 .footer-a {
@@ -62,7 +80,27 @@ body {
     text-decoration: none;
 }
 
+.main-pp {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 200%;
+    letter-spacing: 0.06em;
+    color: #212121; 
+    margin: 20px 0 4px 24px;
+    cursor: pointer;
+}
 
+.main-ppp {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.03em;
+    color: #757575; 
+    margin: 0 0 0 24px;
+    cursor: pointer;
+}
 
 ul {
     list-style: none;
@@ -72,7 +110,7 @@ ul {
     display: flex;
     gap: 8px;
     justify-content: center;
-
+    margin-bottom: 50px;
 }
 
 .header-ul {
@@ -80,89 +118,28 @@ ul {
     gap: 50px;
     
 padding: 34px 0;
+    align-items: center;
 }
 
 .main-button1 {
-    border: none;
-    background-color: #F5F4FA;
-    border-radius: 4px;
-    width: 73px;
-    height: 38px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
-background: #2196f3;
-    border-color: #F5F4FA;
-    
-    border-style: solid;
-    
-    margin: 0 auto;
-    display: block;
-    margin: 30px auto;
-    padding: 10px;
-    
-    cursor: pointer;
-}
-
-.main-button2 {
-    background-color: #F5F4FA;
     border-radius: 4px;
     width: 125px;
     height: 38px;
-    border-color: #F5F4FA;
-    border-style: solid;
-    
-    margin: 0 auto;
-    display: block;
-    margin: 30px auto;
-    padding: 10px;
-    
+    border: none;
     cursor: pointer;
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 162%;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
 }
 
-.main-button3 {
-    background-color: #F5F4FA;
-    width: 112px;
-    height: 38px;
-    border-radius: 4px;
-    border-color: #F5F4FA;
-    border-style: solid;
-    
-    margin: 0 auto;
-    display: block;
-    margin: 30px auto;
-    padding: 10px;
-    
-    cursor: pointer;
-}
-
-.main-button4 {
-    background-color: #F5F4FA;
-    border-radius: 4px;
-    width: 103px;
-    height: 38px;
-    border-color: #F5F4FA;
-    border-style: solid;
-    
-    margin: 0 auto;
-    display: block;
-    margin: 30px auto;
-    padding: 10px;
-    
-    cursor: pointer;
-}
-
-.main-button5 {
-    background-color: #F5F4FA;
-    border-radius: 4px;
-    width: 130px;
-    height: 38px;
-    border-color: #F5F4FA;
-    border-style: solid;
-    
-    margin: 0 auto;
-    display: block;
-    margin: 30px auto;
-    padding: 10px;
-    cursor: pointer;
+.main-button1:hover {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+background: #2196f3;
+color: #fff;
 }
 
 a {
@@ -176,14 +153,16 @@ a {
 }
 
 .main-li1 {
-    box-sizing: border-box;
-    background-color: #F5F4FA;
-    background: #F5F4FA;
     border: 1px solid #eee;
     width: 370px;
     height: 404px;
+    background: #fff;
+}
+
+.main-li1:hover {
     box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-background: #fff;
+    background: #fff; 
+    cursor: pointer;
 }
 
 
