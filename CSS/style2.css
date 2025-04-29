@@ -93,7 +93,69 @@ a.footer-a {
     fill: #2196F3;
 }
 
+.moto-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff; 
+    margin: 0 0 20px 0;
+}
 
+.moto-input {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    width: 358px;
+    height: 50px;
+    background-color: #2F303A;
+    color: #fff;
+    padding: 0 0 0 16px;
+}
+
+.moto-btn {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #fff; 
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #2196f3; 
+    border: none;
+}
+
+.moto-div {
+    position: relative;
+}
+
+.moto-li1 svg {
+    position: absolute;
+    top: 25px;
+    left: 547px;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    fill: #fff;
+}
+
+.moto-ul {
+    display: flex;
+    gap: 12px;
+    padding: 0;
+}
+
+.footer-address {
+    margin-top: 20px;
+}
+
+.footer-ul {
+    margin: 0;
+}
 
 
 

@@ -59,7 +59,7 @@
           <div class="div">
             <ul class="div-ul">
             <h1 class="div-title">Ефективні рішення для <span class="biznes">вашого бізнесу</span></h1>
-            <button class="hero-button">Замовити послугу</button>
+            <button data-open-modal class="hero-button">Замовити послугу</button>
           </ul>
           </div>
           </div>
@@ -349,9 +349,105 @@
         </li>
         </ul>
       </div>
+      
+      <div class="moto">
+        <h3 class="moto-title">Підпишіться на розсилку</h3>
+        <div class="moto-div">
+        <ul class="moto-ul">
+          <li class="moto-li">
+            <input type="email" class="moto-input" placeholder="E-mail" required>
+          </li>
+          <li class="moto-li1">
+          <button class="moto-btn">Підписатися</button>
+          <svg width="24" height="24" viewBox="0 0 24 24">
+            <use href="./img/vector.svg#vector4"></use>
+          </svg>
+        </li>
+        </ul>
+      </div>
+      </div>
+
+
         </div>
       </section>
   </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="backdrop is-hidden">
+    <div class="modal">
+      <button class="modal-close">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <h3 class="modal-title">Залиште свої дані, ми вам передзвонимо</h3>
+
+      <form class="modal-form">
+        <div class="modal-field">
+         <label for="name"> Ім'я </label>
+         <svg width="12" height="12" viewBox="0 0 12 12"   xmlns="http://www.w3.org/2000/svg">
+          <use href="./img/vector.svg#vector1"></use>
+        </svg>
+         <input class="form-input" type="name" type="text" required />
+        </div>
+        <div class="modal-field">
+          <label for="phone"> Телефон </label>
+          <svg width="14" height="14" viewBox="0 0 14 14"  xmlns="http://www.w3.org/2000/svg">
+            <use href="./img/vector.svg#vector2"></use>
+          </svg>
+          <input class="form-input phone"  type="phone" type="tel" required />
+         </div>
+         <div class="modal-field">
+          <label for="email"> Пошта </label>
+          <svg width="16" height="12" viewBox="0 0 16 12"  xmlns="http://www.w3.org/2000/svg">
+            <use href="./img/vector.svg#vector3"></use>
+          </svg>
+          <input class="form-input email" type="email"  required />
+         </div>
+         <div class="modal-field">
+          <label for="message"> Коментар </label>
+          <textarea type="messege" class="textarea" placeholder="Введіть текст"></textarea>
+         </div>
+         <div class="modal-field field-checkbox">
+          <input name="policy" checked type="checkbox" class="form-checkbox" required />
+          <label for="policy" class="policy"> Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a></label>
+         </div>
+
+         <button type="submit" disabled class="modal-btn">Відправити</button>
+      </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script src="https://kit.fontawesome.com/2fc80ab1f3.js" crossorigin="anonymous"></script>
+
+
+<script src="./js/script.js"></script>
+
 
   </body>
 </html>
