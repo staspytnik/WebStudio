@@ -221,3 +221,60 @@ height: 44px;
     fill: #2196F3;
 }
 
+/*.benefito-p {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff; 
+    padding: 27px;
+}
+*/
+.benefito-div {
+    position: relative;
+    display: inline-block;
+}
+
+.benefito-p {
+    position: absolute;
+    top: 70.5%;
+    left: 0%; 
+    background: rgba(47, 48, 58, 0.8);
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff; 
+    padding: 27px;
+    width: 370px;
+    height: 70px;
+}
+
+/*.benefito-div {
+    background-color: rgba(47, 48, 58, 0.8);
+    width: 370px;
+    height: 70px;
+    position: static;
+}
+*/
+
+
+
+
+
+
+
+
+
+.baner {
+    background: #c2e8ce;
+    height: 50px;
+    position: fixed;
+    padding: 5px;
+    width: 100%;
+    top: 0;
+}
