@@ -157,13 +157,59 @@ a.footer-a {
     margin: 0;
 }
 
+.header-a {
+    position: relative;
+    transition: 0.5s;
+}
 
+.header-a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #2196F3;
+    transform: translateX(-50%) scaleX(0);
+    left: 50%;
+    bottom: -5px;
+    transition: 0.5s;
+    border-radius: 20%;
+}
 
+.header-a:hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
 
+.main-li1:hover .main-div1 {
+    transform: translateY(0);
+}
 
+.main-li1 {
+    position: relative;
+    overflow: hidden; 
+}
 
+.main-div1 {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    transition: 0.5s;
+    overflow: hidden;
+}
 
-
-
-
-
+.main-p1 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: 0.03em;
+    color: #fff; 
+    background: rgba(33, 150, 243, 0.9);
+    width: 370px;
+    height: 294px; 
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
